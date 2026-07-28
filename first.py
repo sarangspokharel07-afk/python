@@ -10,3 +10,5 @@ c4=a/b
 print("The division of a and b is:", c4)
 c5=a%b
 print("The modulus of a and b is:", c5)
+c6=a**b
+print("The exponentiation of a and b is:", c6)
