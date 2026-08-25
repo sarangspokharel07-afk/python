@@ -7,7 +7,7 @@ class Form:
         self.email = email
         self.phone = phone
 
-sarangs = Form("Sarangs", 20, "sarangs@example.com", "1234567890")
+sarangs = Form("Sarangs", 20, "sarangs07@example.com", "1234567890")
 
 print(sarangs.name, sarangs.age, sarangs.email, sarangs.phone)
 
