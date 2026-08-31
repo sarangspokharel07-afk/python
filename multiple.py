@@ -17,10 +17,12 @@ class Mother:
 class Child(Father, Mother, Grandfather):
 
     def skills3(self):
+        super().skills()
+        super().skills1()
+        super().skills2()
         print("Coding")
+    
+    
 
 c=Child()
-c.skills()
-c.skills1()
-c.skills2()
 c.skills3()
